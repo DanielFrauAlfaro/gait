@@ -13,16 +13,29 @@ Welcome to the GAIT (Gesture Analysis and Interpretation Toolkit) repository for
 
 - **Gesture Analysis**:
   - Implement algorithms for gesture segmentation and recognition.
+  - Test the training results on non-seen image sequences.
 
 ## Installation
 
-To use GAIT, follow these steps:
+To use this project, follow these steps:
 
 1. **Clone the Repository**:
 
    ```bash
    git clone https://github.com/DanielFrauAlfaro/gait.git
-
-2. **Usage**:
+   
+2. **Installation**:
+   ```
+   pip3 install torch torchvision      # or your preferred Pytorch version
+   sudo apt-get install -y python3-opencv
+   pip3 install numpy==1.24
+   pip3 install utils
+   pip3 install tqdm
+   pip3 install termcolor
+   pip3 install kornia
+   pip3 install einops
+   pip3 install -U scikit-learn
+   
+3. **Usage**:
    ```bash
    python3 main.py
