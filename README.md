@@ -35,7 +35,6 @@ To use this project, follow these steps:
    pip3 install kornia
    pip3 install einops
    pip3 install -U scikit-learn
-   
 3. **Usage**:
    ```bash
    python3 main.py
