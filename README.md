@@ -1,6 +1,6 @@
 # GAIT (Gesture Analysis and Interpretation Toolkit)
 
-Welcome to the GAIT (Gesture Analysis and Interpretation Toolkit) repository for EI (Entornos Inteligentes) subject! This repository includes all scripts written for processing and analysing 
+Welcome to the GAIT (Gesture Analysis and Interpretation Toolkit) repository for EI (Entornos Inteligentes) subject! This repository includes all scripts written for processing and analysing different marching pathrons. In addition to pure gait classification pipelines, this repository also includes the analysis of psychological traits of the person being filmed using [Psymo dataset]([URL](https://openaccess.thecvf.com/content/WACV2024/papers/Cosma_PsyMo_A_Dataset_for_Estimating_Self-Reported_Psychological_Traits_From_Gait_WACV_2024_paper.pdf)).
 
 ## Features
 
@@ -24,5 +24,5 @@ To use GAIT, follow these steps:
    git clone https://github.com/DanielFrauAlfaro/gait.git
 
 2. **Usage**:
-  ```bash
-  python3 gait.py
+   ```bash
+   python3 gait.py
